@@ -6,3 +6,5 @@ Learning HTML and CSS
 
 Changes are pushed to beta branch
 before being merged in the master branch
+
+Using beta-2 branch
