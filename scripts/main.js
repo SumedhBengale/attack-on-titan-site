@@ -11,12 +11,9 @@ function changeimage(){
 
 function setusername(){
     let myName=prompt("Please Enter your name-");
-    myHeading.textContent = 'Welcome, ' + myName;
-    if(!localStorage.getItem('name')) {
-        setUserName();
-      } else {
-        let myName = localStorage.getItem('name');
-      }
+    
+        localStorage.setItem('name', myName);
+        myHeading.textContent = 'Welcome, ' + myName;
 }
 
 let myImage= document.querySelector("img");
@@ -24,4 +21,4 @@ let myImage= document.querySelector("img");
 myImage.onclick= function(){
     changeimage();
 }
-let myHeading=document.querySelector('h2');
+let myHeading=document.querySelector('h1');
