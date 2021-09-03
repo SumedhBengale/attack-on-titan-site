@@ -1,6 +1,14 @@
-const myHeading =document.querySelector("h1");
-myHeading.textContent="Attack on Titan!"
+let myImage= document.querySelector("img");
 
-document.querySelector('html').onclick = function() {
-    alert('Ouch! Stop poking me!');
+myImage.onclick= function(){
+
+    let src= myImage.getAttribute("src");
+    if(src==="images/aot.jpg")
+    {
+        myImage.setAttribute('src','images/aot2.jpg');
+    }
+    else{
+
+        myImage.setAttribute('src','images/aot.jpg');
+    }
 }
