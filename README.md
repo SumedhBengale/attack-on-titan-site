@@ -12,3 +12,5 @@ Using beta-2 branch
 Trying out different branches on local machine and Github.
 
 This repo now contains HTML, JS, and CSS elements.
+
+This project is now complete.
